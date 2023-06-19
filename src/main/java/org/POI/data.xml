@@ -1,0 +1,8 @@
+<suite name="suite">
+    <test name="test1">
+        <classes>
+            <class name="org.POI.DataProviderExample">
+            </class>
+        </classes>
+    </test>
+</suite>

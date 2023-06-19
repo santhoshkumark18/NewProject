@@ -1,0 +1,14 @@
+<suite name ="cross" parallel="tests">
+    <test name ="suite1" >
+        <parameter name ="browser" value="chrome"></parameter>
+        <classes>
+            <class name="org.June17.TestNG.CrossBrowserTesting"></class>
+        </classes>
+    </test>
+    <test name ="suite2" >
+        <parameter name ="browser" value="edge"></parameter>
+        <classes>
+            <class name="org.June17.TestNG.CrossBrowserTesting"></class>
+        </classes>
+    </test>
+</suite>

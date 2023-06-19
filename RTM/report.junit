@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.161" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="" name="" time="0.007">
+<system-out><![CDATA[
+When User should navigate to the application................................passed
+And User should able click login button.....................................passed
+And User should able enter as email "santhoshinrealife@gmail.com"...........passed
+And User should able enter as pass "Santhosh@18"............................passed
+Then login should be successful.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="" name="" time="0.002">
+<system-out><![CDATA[
+When User should navigate to the application................................passed
+And User should able click login button.....................................passed
+And User should able enter as email "santhosh@gmail.com"....................passed
+And User should able enter as pass "Santhosh@180"...........................passed
+Then login should be successful.............................................passed
+]]></system-out>
+</testcase>
+</testsuite>

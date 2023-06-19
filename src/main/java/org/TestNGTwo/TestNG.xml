@@ -1,0 +1,21 @@
+<suite name="name" parallel="tests">
+    <groups>
+        <run>
+            <include name="smoke"></include>
+
+        </run>
+    </groups>
+    <parameter name="search" value="ind vs aus"></parameter>
+    <test name="sample google">
+        <classes>
+            <parameter name="webbrowser" value="chrome"></parameter>
+            <class name="org.TestNGTwo.FirstMethods"/>
+        </classes>
+    </test>
+    <test name="sample edge">
+        <classes>
+            <parameter name="webbrowser" value="edge"></parameter>
+            <class name="org.TestNGTwo.SecondMethods"></class>
+        </classes>
+    </test>
+</suite>

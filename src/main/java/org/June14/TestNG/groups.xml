@@ -1,0 +1,14 @@
+<suite name ="groups">
+    <groups>
+        <run>
+            <include name="smoke"></include>
+            <!--<include name="sanity"></include>-->
+            <exclude name="sanity"></exclude>
+        </run>
+    </groups>
+    <test name="suite">
+        <classes>
+            <class name="org.June14.TestNG.Test2"></class>
+        </classes>
+    </test>
+</suite>

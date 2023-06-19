@@ -1,0 +1,18 @@
+<suite name="test1" parallel="tests">
+    <parameter name="email" value="santhoshinreallife@gmail.com"></parameter>
+    <parameter name="password" value="Santhosh@18"></parameter>
+    <test name="suite1" thread-count="3">
+        <classes>
+            <parameter name="browser" value="chrome"></parameter>
+            <class name="org.June14.TestNG.Test1">
+            </class>
+        </classes>
+    </test>
+    <test name="suite2">
+        <classes>
+            <parameter name="browser" value="edge"></parameter>
+            <class name="org.June14.TestNG.Test1">
+            </class>
+        </classes>
+    </test>
+</suite>

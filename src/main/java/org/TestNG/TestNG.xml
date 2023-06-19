@@ -1,0 +1,16 @@
+<suite name="suite" parallel="tests">
+    <parameter name="email" value="santhoshinreallife@gmail.com"></parameter>
+    <parameter name="pass" value="Santhosh@18"></parameter>
+    <test name="suite1">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="org.TestNG.meth"></class>
+        </classes>
+    </test>
+    <test name="suite2">
+        <parameter name="browser" value="firefox"></parameter>
+        <classes>
+            <class name="org.TestNG.meth"></class>
+        </classes>
+    </test>
+</suite>

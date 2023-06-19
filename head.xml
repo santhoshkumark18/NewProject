@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.298" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="" name=": - Example #1.1" time="0.024">
+<system-out><![CDATA[
+When should be login successfull............................................passed
+And user should enter the user as "santhoshinreallife@gmail.com"............passed
+And user should enter the pass as "santhosh@18".............................passed
+And user should click login button..........................................passed
+Then login should be successfull............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="" name=": - Example #1.2" time="0.003">
+<system-out><![CDATA[
+When should be login successfull............................................passed
+And user should enter the user as "santhosh@gmail.com"......................passed
+And user should enter the pass as "santhosh@18".............................passed
+And user should click login button..........................................passed
+Then login should be successfull............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
