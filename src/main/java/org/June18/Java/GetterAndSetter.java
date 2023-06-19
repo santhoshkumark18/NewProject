@@ -9,6 +9,7 @@ class sum {
     }
     public void dis() {
         System.out.println(a);
+        System.out.println(a);
     }
 }
 public class GetterAndSetter {
