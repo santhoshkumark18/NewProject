@@ -1,0 +1,16 @@
+<suite name="name" parallel="tests">
+    <parallel name="student" value="santhosh"></parallel>
+    <parallel name="rollno" value="27"></parallel>
+    <test name="one">
+        <classes>
+            <parallel name="age" value="21"></parallel>
+            <class name="org.June19.TestNG.cross"></class>
+        </classes>
+    </test>
+    <test name="one1">
+        <classes>
+            <parallel name="age" value="24"></parallel>
+            <class name="org.June19.TestNG.cross"></class>
+        </classes>
+    </test>
+</suite>

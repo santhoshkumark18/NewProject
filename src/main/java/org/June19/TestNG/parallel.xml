@@ -1,0 +1,12 @@
+<suite name="name" thread-count="5" parallel="tests">
+    <test name="equals">
+        <classes>
+            <class name="org.June19.TestNG.TestParallel"></class>
+        </classes>
+    </test>
+    <test name="equals1">
+        <classes>
+            <class name="org.June19.TestNG.TestParallel"></class>
+        </classes>
+    </test>
+</suite>

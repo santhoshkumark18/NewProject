@@ -1,0 +1,14 @@
+<suite name="name">
+    <test name="one">
+        <parameter name="bro" value="chrome"></parameter>
+        <classes>
+            <class name="org.June20.TestNG.paltform"></class>
+        </classes>
+    </test>
+    <test name="one1">
+        <parameter name="bro" value="edge"></parameter>
+        <classes>
+            <class name="org.June20.TestNG.paltform"></class>
+        </classes>
+    </test>
+</suite>

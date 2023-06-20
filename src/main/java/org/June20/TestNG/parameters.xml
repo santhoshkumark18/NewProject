@@ -1,0 +1,16 @@
+<suite name="suite" parallel="tests">
+    <parameter name="name" value="Santhoshkumar"></parameter>
+    <parameter name="rollno" value="18"></parameter>
+    <test name="parameter">
+        <parameter name="age" value="21"></parameter>
+        <classes>
+            <class name="org.June20.TestNG.Cross"></class>
+        </classes>
+    </test>
+    <test name="parameter1">
+        <parameter name="age" value="23"></parameter>
+        <classes>
+            <class name="org.June20.TestNG.Cross"></class>
+        </classes>
+    </test>
+</suite>
