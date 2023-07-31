@@ -15,7 +15,10 @@ public class PrimeNO {
             }
             if(f==2) {
                 System.out.println(n+"prime no");
-            }
+            }/*11.775
+                    9.75
+                            24.115
+                                    22.995*/
             f=0;
         }
 

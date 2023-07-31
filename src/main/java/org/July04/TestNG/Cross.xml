@@ -1,0 +1,20 @@
+<suite name="cross" parallel="tests">
+
+    <test name="cross01">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <parameter name="email" value="santhoshinrealife@gmail.com"></parameter>
+            <parameter name="pass" value="Santhosh@18"></parameter>
+            <class name="org.July04.TestNG.CrossBrowser"></class>
+        </classes>
+    </test>
+
+    <test name="cross02">
+        <parameter name="browser" value="edge"></parameter>
+        <classes>
+            <parameter name="email" value="santhoshinrealife@gmail.com"></parameter>
+            <parameter name="pass" value="@18"></parameter>
+            <class name="org.July04.TestNG.CrossBrowser"></class>
+        </classes>
+    </test>
+</suite>
