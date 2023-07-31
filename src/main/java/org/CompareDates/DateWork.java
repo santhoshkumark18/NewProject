@@ -22,7 +22,7 @@ public class DateWork {
         Calendar calendar = Calendar.getInstance();
         int dayOfMonth = calendar.get(Calendar.DAY_OF_MONTH);
         int dayOfWeek = -calendar.get(Calendar.DAY_OF_WEEK) + 1;
-        /*System.out.println(calendar.get(Calendar.DAY_OF_MONTH));*/
+        System.out.println(calendar.get(Calendar.DAY_OF_MONTH));
         System.out.println(dayOfMonth);
         System.out.println(-dayOfWeek + 1);
         calendar.add(Calendar.DAY_OF_MONTH, dayOfWeek);

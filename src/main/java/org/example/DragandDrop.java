@@ -7,7 +7,5 @@ public class DragandDrop {
         ChromeDriver driver = new ChromeDriver();
         driver.get("https://www.jqueryui.com");
         driver.manage().window().maximize();
-        driver.get("https://www.jqueryui.com/draggable");
-
     }
 }

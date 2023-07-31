@@ -24,6 +24,5 @@ public class alerts {
         driver.switchTo().alert();
         driver.switchTo().alert().sendKeys("santhoshkumar");
         driver.switchTo().alert().accept();
-        driver.quit();
     }
 }

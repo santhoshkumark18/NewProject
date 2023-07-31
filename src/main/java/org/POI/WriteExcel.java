@@ -6,8 +6,12 @@ import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+
 public class WriteExcel {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         XSSFWorkbook workbook = new XSSFWorkbook();
         XSSFSheet sheet = workbook.createSheet("userdetails");
         String[][] data= new String[2][2];
@@ -24,5 +28,7 @@ public class WriteExcel {
                     cell.setCellValue(col);
                 }
         }
+        FileOutputStream fileOutputStream = new FileOutputStream("C:\\Projects\\SampleSelenium\\src\\main\\java\\org\\POI\\data.xlsx");
+        workbook.write(fileOutputStream);
     }
 }
